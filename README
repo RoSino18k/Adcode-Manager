@@ -1,0 +1,1 @@
+Trình quản lý code chạy trên nền PHP dành riêng cho hosting Heroku. Tác vụ cần chạy: domain/unzip.php để unzip file sau đó domain/mng để truy cập trình quản lý !!
