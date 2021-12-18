@@ -1,8 +1,8 @@
 const $ = new Env('SHOPEE')
 const service = "nap-the-va-dich-vu-online";
 !(async () => {
-$.log($.isNode())
-$.log(getListVoucher())
+//$.log($.isNode())
+$.log(getListVoucher());
 })()
   .catch((e) => $.log(e))
   .finally(() => $.done())
