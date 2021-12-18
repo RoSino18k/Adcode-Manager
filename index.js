@@ -2,7 +2,7 @@ const $ = new Env('SHOPEE')
 const service = "nap-the-va-dich-vu-online";
 !(async () => {
 $.log($.isNode())
-await getListVoucher()
+$.log(getListVoucher())
 })()
   .catch((e) => $.log(e))
   .finally(() => $.done())
